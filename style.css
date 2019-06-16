@@ -43,8 +43,30 @@ header.container-fluid {
   margin-top: -20px;
 }
 
-/* bootstrap.min.css | https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css */
+.divider{
+  width: 50%;
+  margin: 0 auto;
+}
+.divider *{
+  display: inline-block;
+  float: none;
+  margin: 0 auto;
+}
 
-/* .row {
-  background-color: #1abc9c;
-} */
+.divider::after{
+  display: table;
+  content: '';
+  clear: both;
+}
+
+.stella{
+  font-size: 4rem;
+  margin:20px;
+}
+
+.linea{
+  height: 4px;
+  width: 70px;
+  background: white;
+  margin-bottom: 16px;
+}
